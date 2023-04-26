@@ -1,0 +1,276 @@
+.rates {
+  position: relative;
+  top:20%;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-left: 20%;
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: 355px 355px 355px;
+  grid-template-rows: 400px 400px 400px;
+}
+.rates div{
+  background-color: rgba(128, 128, 128, 0.534);
+  border-radius: 5px;
+}
+.rates img{
+  width:355px;
+  border-radius: 5px;
+}
+
+.rates img:hover{
+  width: 400px;
+}
+
+.direction {
+  background-color: rgba(250, 235, 215, 0.767);
+  padding: 1px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.direction div{
+  position: relative;
+  margin-left:30%;
+}
+
+.direction li{
+  padding:5px;
+}
+
+.direction p{
+  font-size: 20px;
+}
+
+
+
+
+nav {
+    background-color: #fafafa5b;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 8px;
+    border-radius:50px;
+  }
+
+  .fcontainer {
+    position: relative;
+    top:15%;
+  }
+
+  .footer{
+    background-color: #f6cda483;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    border-radius:5px;
+  }
+  .foot{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .foot img {
+    width: 40px;
+    border-radius: 30px;
+    padding-left: 4px;
+  }
+
+nav a:hover{
+
+  border-radius: 4px;
+  padding: 4px;
+  font-size: 30px;
+}
+  
+  .socmed {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .socmed li {
+    margin: 10px 0;
+  }
+
+  .socmed a {
+    color: #000000;
+    text-decoration: none;
+    font-size: larger;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin: 10px 0;
+  }
+  
+  .navbar a {
+    color: #000000;
+    text-decoration: none;
+    font-size: larger;
+  }
+  .logo a {
+    position: relative;
+    color: #080707;
+    text-decoration: none;
+    bottom: 15px;
+    left: 10px;
+    font-size: larger;
+  }
+  .logo img {
+    width: 60px;
+    border-radius: 50%;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .navbar {
+      flex-direction: row;
+      margin-left: 185px;
+    }
+  
+    .navbar li {
+      margin: 0 10px;
+    }
+  }
+
+  body{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 251, 251, 0.5)), url("hero.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-size: larger;
+  }
+
+  .cta-button {
+    background-color: #f44336;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.socmed img{
+  width: 30px;
+}
+
+.socmed a:hover{
+  font-size: 30px;
+}
+
+.cta-button:hover {
+    background-color: #d32f2f;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  width: 20%;
+ 
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 13px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 100px) {
+  .column, input[type=submit] {
+    width: 50%;
+    margin-top: 0;
+  }
+}
+
+.contact {
+  text-align: center;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+  font-size: x-large;
+ background-color: rgba(250, 235, 215, 0.683);
+ 
+  
+}
+.amenities{
+  background-color: rgba(250, 235, 215, 0.767);
+  padding: 1px;
+  margin-top: 20px;
+  border-radius: 5px;
+  text-align: center;
+  
+}
+.amenities img{
+  width:500px;
+  border-radius: 5px;
+
+}
+
